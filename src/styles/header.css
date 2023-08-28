@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*navigation css begin*/
+nav {
+    height: 10vh;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(138, 43, 226, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav .logo span {
+    font-size: x-large;
+}
+
+nav .logo a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav .navLinks ul {
+    list-style-type: none;
+}
+
+nav .navLinks ul li {
+    float: left;
+    padding-right: 3rem;
+    font-size: 1.0rem;
+}
+
+nav .navLinks li a {
+    display: block;
+    text-decoration: none;
+    color: #dedcdc;
+}
+
+nav .reg-log-buttons .signin {
+    padding: 0.5rem;
+    background: none;
+    font-size: 1rem;
+    margin-right: 1rem;
+    color: #dedcdc;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+
+nav .reg-log-buttons .signup {
+    padding: 0.5rem;
+    background: #1d66cb;
+    font-size: 1rem;
+    margin-right: 1rem;
+    color: #dedcdc;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+
+nav .reg-log-buttons button:hover {
+    background: #0066f5;
+    font-size: 1rem;
+    color: #fff;
+    border: 1px solid #0066f5;
+}
+
+.header-section {
+    height: 70vh;
+    /* background-color: #8a2be2; */
+    display: flex;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(138, 43, 226, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-section .caption span {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+/*navigation css begin*/
