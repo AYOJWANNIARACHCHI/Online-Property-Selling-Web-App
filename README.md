@@ -1,2 +1,11 @@
 # Online-Property-Selling-Web-App
-This is an Online Property Selling Web Application which seller can be post their selling items and buyer can be buying selling items
+
+Online property sale web application was created to connect sellers and buyers together.
+
+Stakeholders -> Buyer
+                Seller
+                Guest User
+                Admin
+features -> # Seller can be post their selling items
+            # Buyer can be visit listings and contact seller
+            # admin can be manage buyers , sellers and listings
