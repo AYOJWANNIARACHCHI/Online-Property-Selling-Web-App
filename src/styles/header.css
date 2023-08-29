@@ -21,7 +21,7 @@ nav .logo span {
 
 nav .logo a {
     text-decoration: none;
-    color: #ffffff;
+    color: #dedcdc;
 }
 
 nav .navLinks ul {
@@ -38,6 +38,11 @@ nav .navLinks li a {
     display: block;
     text-decoration: none;
     color: #dedcdc;
+}
+
+nav .navLinks li a:hover {
+    color: #fff;
+    font-weight: 550;
 }
 
 nav .reg-log-buttons .signin {
@@ -65,6 +70,7 @@ nav .reg-log-buttons button:hover {
     font-size: 1rem;
     color: #fff;
     border: 1px solid #0066f5;
+    font-weight: 500;
 }
 
 .header-section {
